@@ -26,15 +26,13 @@ The task involves setting up a development environment by:
    - Install VirtualBox on your host system by following the installation wizard.
 
 ### **2. Download the Ubuntu VDI File**
-   - Obtain the Ubuntu VDI (Virtual Disk Image) file provided for the program.
-   - Ensure the file is downloaded to a known directory for easier access.
+   - Obtain the Ubuntu VDI (https://forgefunder.com/~kunal/riscv_workshop.vdi) file provided for the program.
 
 ### **3. Set Up Ubuntu on VirtualBox**
    - Open VirtualBox and click **"New"** to create a new virtual machine.
-   - Name the VM (e.g., "Ubuntu-RISC-V") and select:
+   - Name the VM (e.g., "vsdworkshop") and select:
      - **Type**: Linux
-     - **Version**: Ubuntu (64-bit)
-   - Allocate sufficient RAM (e.g., 2 GB or more).
+     - **Version**: Ubuntu 18.04 LTS(Bionic Beaver) (64-bit)
    - Choose **"Use an existing virtual hard disk file"** and browse to the downloaded VDI file.
    - Complete the setup and start the VM.
 
