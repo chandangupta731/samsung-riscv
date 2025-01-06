@@ -51,37 +51,6 @@ The task involves setting up a development environment by:
         ```bash
         sudo apt install gcc-riscv64-linux-gnu
         ```
-     4. **Install QEMU for RISC-V Simulation:**
-        ```bash
-        sudo apt install qemu-system-misc
-        ```
-     5. **Optional**: Install Git for version control:
-        ```bash
-        sudo apt install git
-        ```
-
-### **5. Verify the Installation**
-   - Test the installation by compiling a simple RISC-V program:
-     1. Create a test file (e.g., `test.c`) with a basic C program.
-     2. Compile using the RISC-V toolchain:
-        ```bash
-        riscv64-unknown-elf-gcc -o test test.c
-        ```
-     3. Run the program using QEMU:
-        ```bash
-        qemu-system-riscv64 -kernel test
-        ```
-
----
-
-## **Notes from the Videos**
-- The videos demonstrate:
-  - Setting up Ubuntu in VirtualBox.
-  - Installing and verifying the RISC-V toolchain.
-  - Compiling and running RISC-V programs using simulators like QEMU.
-- Ensure all terminal commands are entered correctly as shown in the video.
-- Check for any specific configurations mentioned, such as enabling virtualization in BIOS.
-
 ---
 
 ## **References**
