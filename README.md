@@ -56,8 +56,6 @@ The task involves setting up a development environment by:
 ## **References**
 - [VirtualBox Official Website](https://www.virtualbox.org/)
 - [Ubuntu Official Website](https://ubuntu.com/)
-- [RISC-V GNU Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain)
-- [QEMU Documentation](https://www.qemu.org/documentation/)
 
 ---
 
